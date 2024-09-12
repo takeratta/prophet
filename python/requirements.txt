@@ -1,5 +1,6 @@
 Cython>=0.22
 pystan>=2.14
-numpy>=1.10.0
+numpy>=1.21.0rc1
 pandas>=0.18.1
 matplotlib>=2.0.0
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
